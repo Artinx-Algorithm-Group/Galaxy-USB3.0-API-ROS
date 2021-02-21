@@ -1,6 +1,6 @@
 # Calibration Parameters
 gxcam_height: 1024
-gxcam.width: 1280
+gxcam_width: 1280
 
 gxcam_distortion_model: "plumb_bob"
 
