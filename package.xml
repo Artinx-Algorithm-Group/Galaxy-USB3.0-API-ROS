@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>galaxy_camera</name>
+  <version>0.1.0</version>
+  <description>The package for Galaxy usb3.0 camera</description>
+
+  <maintainer email="yonglinjing7@gmail.com">Yonglin Jing</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+  <author email="you@yourdomain.tld">Jane Doe</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+
+</package>
