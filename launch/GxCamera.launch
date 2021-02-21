@@ -1,0 +1,7 @@
+<launch>
+    <master auto="start"/>
+
+    <rosparam command="load" file="$(find galaxy_camera)/config/config.yaml" />
+
+    <node pkg="galaxy_camera" type="GxCamera_node" name="GxCamera_node" output="screen" respawn="false"/>
+</launch>

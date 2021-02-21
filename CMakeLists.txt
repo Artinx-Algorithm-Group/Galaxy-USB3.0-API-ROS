@@ -12,6 +12,7 @@ set(CMAKE_BUILD_TYPE Release)
 find_package(catkin REQUIRED COMPONENTS 
     roscpp 
     std_msgs
+    sensor_msgs
     cv_bridge
     image_transport)
 

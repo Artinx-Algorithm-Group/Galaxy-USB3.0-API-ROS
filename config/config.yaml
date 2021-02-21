@@ -1,0 +1,15 @@
+# Calibration Parameters
+gxcam_height: 1024
+gxcam.width: 1280
+
+gxcam_distortion_model: "plumb_bob"
+
+# [k1, k2, t1, t2, k3]
+gxcam_distortion: [-0.2124, 0.1660, 0, 0, 0]
+gxcam_intrinsics: [1300.0, 0.0   , 648.1, 
+                   0.0   , 1300.0, 526.2, 
+                   0.0   , 0.0   , 1.0]
+
+# Camera settings
+gxcam_expsure_time: 8000.0
+gxcam_frame_rate: 200.0
